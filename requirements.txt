@@ -1,0 +1,41 @@
+# WIRE_ENGINE - Dépendances Python
+# -------------------------------------------------
+# Ce fichier liste toutes les bibliothèques nécessaires au fonctionnement
+# de WIRE_ENGINE, une interface avancée d'analyse de trafic réseau en temps réel.
+#
+# Installation : pip install -r requirements.txt
+# -------------------------------------------------
+
+# Interface graphique
+PyAutoGUI
+Pillow
+
+# Capture et analyse de paquets réseau
+scapy==2.5.0
+
+# Cartographie du réseau et résolution d'adresses
+python-nmap
+netifaces
+mac-vendor-lookup
+getmac
+
+# Résolution DNS inverse
+dnspython
+
+# Géolocalisation IP
+geoip2
+requests
+
+# Base de données embarquée pour l'historique
+sqlite3
+
+# Visualisation des statistiques
+matplotlib
+
+# Multithreading / scheduling
+threading
+queue
+datetime
+
+# Informations système
+psutil
