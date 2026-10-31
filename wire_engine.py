@@ -1,28 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-WIRE_ENGINE - Interface avancée d'analyse de trafic réseau en temps réel
-Auteur  : CodePal
-Version : 1.0.0
-Licence : MIT
-
-Description :
-    WIRE_ENGINE est une application de type Wireshark allégée écrite en Python
-    avec Tkinter. Elle permet de capturer le trafic réseau en temps réel,
-    d'identifier les appareils connectés, de résoudre les noms de domaine,
-    d'afficher les routes empruntées par les paquets et d'expliquer de manière
-    simple chaque protocole et comportement observé.
-
-Fonctionnalités principales :
-    - Capture en temps réel via Scapy
-    - Interface noire/blanche stylisée
-    - Liste des appareils connectés (ARP, scan réseau)
-    - Affichage des paquets avec explications lisibles
-    - Filtrage par protocole, IP, port et domaine
-    - Historisation SQLite
-    - Statistiques et graphiques en temps réel
-"""
-
 import os
 import sys
 import time
